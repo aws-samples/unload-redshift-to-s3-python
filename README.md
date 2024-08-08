@@ -1,4 +1,3 @@
-# aws-unload-redshift-to-s3-python
 
 The purpose of this code is to extract (unload) data from an Amazon Redshift cluster supposedly on a production environment using an SQL query and save them to an Amazon Simple Storage Service (Amazon S3) bucket that exists in a development environment.
 
