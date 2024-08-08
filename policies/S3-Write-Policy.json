@@ -1,0 +1,30 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Sid": "kmsstmt",
+        "Effect": "Allow",
+        "Action": [
+          "kms:Decrypt",
+          "kms:Encrypt",
+          "kms:GenerateDataKey"
+        ],
+        "Resource": [
+          "<kms-key-arn>"
+        ]
+      },
+      {
+        "Sid": "s3stmt",
+        "Effect": "Allow",
+        "Action": [
+          "s3:PutObject",
+          "s3:Get*",
+          "s3:List*"
+        ],
+        "Resource": [
+          "arn:aws:s3:::mybucket",
+          "arn:aws:s3:::mybucket/*"
+        ]
+      }
+    ]
+  }
