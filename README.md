@@ -10,7 +10,6 @@ The purpose of this code is to extract (unload) data from an Amazon Redshift clu
 - [Limitations](#limitations)
 - [Disclaimer](#disclaimer)
 - [Security](#security)
-- [License](#license)
 
 
 ## Description
@@ -61,7 +60,3 @@ Additionally, the two accounts should have identical security measures applied s
 ## Security
 
 See [CONTRIBUTING](CONTRIBUTING.md) for more information.
-
-## License
-
-This project is licensed under the Apache-2.0 License.
